@@ -1,6 +1,3 @@
-
-
-
 import React,{ useEffect, useState } from "react";
 import PokemonThumbnail from "./Components/PokemonThumbnail";
 
@@ -25,8 +22,8 @@ function App() {
   }
   useEffect(()=>{
     getAllPokemons()
-  },[])
-
+  },[]);
+  
   return (
     <div className="app-container">
      <h1>Pokemon Kingdom .</h1>
